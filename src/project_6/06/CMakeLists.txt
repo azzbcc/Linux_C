@@ -1,0 +1,5 @@
+SET(SOURCE_FILES ioctl_net.c)
+
+ADD_EXECUTABLE(project_6_06 ${SOURCE_FILES})
+
+TARGET_LINK_LIBRARIES(project_6_06 common)

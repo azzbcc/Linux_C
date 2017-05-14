@@ -1,0 +1,5 @@
+SET(SOURCE_FILES show_files.c)
+
+ADD_EXECUTABLE(project_6_12 ${SOURCE_FILES})
+
+TARGET_LINK_LIBRARIES(project_6_12 common)

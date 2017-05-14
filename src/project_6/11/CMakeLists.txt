@@ -1,0 +1,5 @@
+SET(SOURCE_FILES my_cd.c)
+
+ADD_EXECUTABLE(project_6_11 ${SOURCE_FILES})
+
+TARGET_LINK_LIBRARIES(project_6_11 common)

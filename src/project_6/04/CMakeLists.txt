@@ -1,0 +1,5 @@
+SET(SOURCE_FILES fcntl_access.c)
+
+ADD_EXECUTABLE(project_6_04 ${SOURCE_FILES})
+
+TARGET_LINK_LIBRARIES(project_6_04 common)

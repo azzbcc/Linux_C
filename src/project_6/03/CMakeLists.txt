@@ -1,0 +1,5 @@
+SET(SOURCE_FILES my_rwl.c)
+
+ADD_EXECUTABLE(project_6_03 ${SOURCE_FILES})
+
+TARGET_LINK_LIBRARIES(project_6_03 common)

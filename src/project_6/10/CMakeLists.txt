@@ -1,0 +1,5 @@
+SET(SOURCE_FILES ulink_temp.c)
+
+ADD_EXECUTABLE(project_6_10 ${SOURCE_FILES})
+
+TARGET_LINK_LIBRARIES(project_6_10 common)

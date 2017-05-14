@@ -1,0 +1,5 @@
+SET(SOURCE_FILES test_umask.c)
+
+ADD_EXECUTABLE(project_6_08 ${SOURCE_FILES})
+
+TARGET_LINK_LIBRARIES(project_6_08 common)

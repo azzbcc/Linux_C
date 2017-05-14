@@ -1,0 +1,12 @@
+# Created by azzbcc on 2017-05-11
+
+# KDE directory preferences
+.directory
+
+# CLion 生成文件
+.idea
+# 编译文件夹
+*build*
+
+# 生成的lib文件
+.libs

@@ -1,0 +1,5 @@
+SET(SOURCE_FILES fcntl_lock.c)
+
+ADD_EXECUTABLE(project_6_05 ${SOURCE_FILES})
+
+TARGET_LINK_LIBRARIES(project_6_05 common)

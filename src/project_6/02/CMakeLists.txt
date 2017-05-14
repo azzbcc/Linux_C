@@ -1,0 +1,3 @@
+SET(SOURCE_FILES my_create.c)
+
+ADD_EXECUTABLE(project_6_02 ${SOURCE_FILES})
